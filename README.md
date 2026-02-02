@@ -282,5 +282,3 @@ Deval Savaliya
 
 ---
 
-**Note**: This app was built with clean code principles, following Flutter best practices and maintaining a professional developer-grade codebase.
-
