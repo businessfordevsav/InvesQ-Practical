@@ -261,17 +261,6 @@ RegExp(r'(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})');  // Date
 3. Lead details are read-only (no editing)
 4. Offline mode not implemented
 
-## 🚧 Future Enhancements
-
-- [ ] Expense history and analytics
-- [ ] Lead detail editing
-- [ ] Dark mode support
-- [ ] Multi-language support
-- [ ] Offline data caching
-- [ ] Export expenses to CSV/PDF
-- [ ] Push notifications
-- [ ] Biometric authentication
-
 ## 📄 License
 
 This project is created for practical assessment purposes.
