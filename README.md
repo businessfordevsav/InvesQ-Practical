@@ -26,17 +26,29 @@ A professional mobile application built with Flutter featuring authentication, p
 - Loading states and error handling
 
 ### 4. **OCR Expense Form**
-- Camera and gallery image picker
-- Automatic text extraction from receipts using Google ML Kit
-- Creative OCR processing dialog with progress indicator
-- Auto-fills form fields:
-  - **Amount**: Extracts dollar amounts
-  - **Date**: Extracts and formats dates
-  - **Merchant**: Extracts merchant/vendor name
-- Manual editing capability
-- Multiple expense categories
-- Date picker integration
-- Receipt image preview
+- **Image Selection**: Camera and gallery image picker with image compression (max 1920x1920, 85% quality)
+- **Receipt Processing**: 
+  - Automatic text extraction from receipts using Google ML Kit Text Recognition
+  - Intelligent OCR processing dialog with progress indicator
+  - Data extraction with regex pattern matching for robust results
+- **Auto-Extracted Fields**:
+  - **Date**: Extracts and formats dates in MMM dd, yyyy format
+  - **Merchant**: Intelligent merchant/vendor name extraction
+  - **Items**: Automatic itemized list extraction with descriptions and prices
+- **Form Features**:
+  - Manual expense entry with title, amount, and notes
+  - Receipt image preview section showing extracted data
+  - Multiple expense categories (Food, Travel, Entertainment, Office Supplies, Other)
+  - Date picker with calendar integration
+  - Manual item addition form for supplements/modifications
+  - Itemized expense tracking with individual item editing
+- **User-Friendly UX**:
+  - Clear OCR opt-in dialog before processing
+  - Visual feedback during OCR processing
+  - Automatic item parsing with price extraction
+  - Item quantity and description support
+  - No auto-fill of title/amount - user enters these manually
+  - Receipt data display for reference
 
 ## 📱 Screenshots
 
